@@ -1,0 +1,46 @@
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.botao:hover {
+    background-color: gray;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilo das linhas alternadas */
+tr:nth-child(even) {
+    background-color: #dddddd; /* Cor de fundo das linhas pares */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Cor de fundo das linhas ímpares */
+}
+
+body {
+    background: radial-gradient(#000066, #000000); 
+    color: white;
+}
+
